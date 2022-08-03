@@ -1,0 +1,26 @@
+
+
+body {
+  background-color: hotpink !important;
+
+}
+
+.tales {
+  max-width: 110% !important;
+  max-height: 100% ;
+}
+ .flex-container {
+  display: flex !important;;
+  flex-wrap: wrap !important;;
+}
+.flex-container {
+  display: flex !important;;
+  flex-wrap: wrap !important;;
+
+}
+
+.flex-container > div {
+  width: 100px !important;;
+  margin: 10px !important;;
+
+}

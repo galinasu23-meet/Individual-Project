@@ -34,6 +34,9 @@ app.config['SECRET_KEY'] = 'super-secret-key'
 
 #Code goes below here
 
+
+# cakes ={'dinoCake':[}
+
 @app.route('/')
 def home():
     return render_template("index.html")
@@ -74,14 +77,15 @@ def signup():
 def cakes():
     return render_template("cakes.html")
 
-@app.route('/cart')
-def cart():
-    return render_template("cart.html")
 
-@app.route('/coursed.cakes')
+@app.route('/csd.cakes')
 def cakes2():
     return render_template("coursed_cakes.html")
 
+
+
+
+# gali_says = "shutup" to Tom
 
 
 

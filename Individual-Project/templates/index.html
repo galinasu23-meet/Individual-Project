@@ -10,6 +10,55 @@
 
 <body>
 
+    <style>
+        
+
+        body {
+            background-image: url("static/bgpic.jpg") !important;
+        }
+
+        .tales {
+            max-width: 100% !important;
+            max-height: 70% !important;
+        }
+
+        .btn {
+            background-color: hotpink;
+            position: absolute;
+            top: 850px;
+            left: 430px;
+            border: none;
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+            font-size: 30px;
+            margin: 4px 2px;
+            opacity: 1;
+            transition: 0.3s;
+        }
+        .btn1 {
+            background-color: hotpink;
+            position: absolute;
+            top: 850px;
+            left: 600px;
+            border: none;
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+            font-size: 30px;
+            margin: 4px 2px;
+            opacity: 1;
+            transition: 0.3s;
+
+        }
+
+
+        .btn:hover {opacity: 0.6} 
+        .btn1:hover {opacity: 0.6}    
+
+
+    </style>
+
 
     <div class = "container tales">
         <div class ="row">
@@ -22,15 +71,15 @@
                     <div class = "carousel-inner" role="listbox">
 
                         <div class ="carousel-item active">
-                        <img src="static/pink.jpg" class="img-fluid" alt="Responsive image">
+                            <img src="static/c1.jpg" class="img-fluid" alt="Responsive image">
                         </div>
 
                         <div class = "carousel-item">
-                        <img src="static/yellow.jpg" class="img-fluid" alt="yellow" >
+                            <img src="static/c2.jpg" class="img-fluid" alt="yellow" >
                         </div>
 
                         <div class = "carousel-item">
-                        <img src="static/blue.jpg" class="img-fluid" alt="blue"
+                            <img src="static/c3.jpg" class="img-fluid" alt="blue"
                         </div>
 
                     </div>
@@ -63,12 +112,15 @@
 
     <br/>
 
-    <a href="/cakes">
-        <button>cakes</button>
-    </a>
-    <a href="/coursed.cakes">
-        <button>coursed cakes</button>
-    </a>
+            <a href="/cakes">
+                <button class="btn">cakes</button>
+            </a>
+
+            <a href="/csd.cakes">
+                <button class="btn1">surprise</button>
+            </a>
+
+ 
 
 
 
